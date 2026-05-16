@@ -31,7 +31,7 @@ public class GroqService {
             message.put("content", userMessage);
 
             Map<String, Object> body = new HashMap<>();
-            body.put("model", "llama3-8b-8192");
+            body.put("model", "llama-3.3-70b-versatile");
             body.put("messages", List.of(message));
             body.put("max_tokens", 500);
 
