@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 // APNA IP DAALO YAHAN (cmd mein ipconfig chalao)
-const BACKEND_URL = " https://clasp-ungraded-usual.ngrok-free.dev/chat";
+const BACKEND_URL = " https://sahayak-ai-with-groq.onrender.com/chat";
 
 function App() {
   const [messages, setMessages] = useState([]);
